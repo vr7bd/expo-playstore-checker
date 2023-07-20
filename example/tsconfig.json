@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-playstore-checker": ["../src/index"],
+      "expo-playstore-checker/*": ["../src/*"]
+    }
+  }
+}
