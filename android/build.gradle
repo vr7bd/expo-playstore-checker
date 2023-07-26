@@ -51,6 +51,7 @@ afterEvaluate {
 }
 
 android {
+  namespace = "expo.modules.playstorechecker"
   compileSdkVersion safeExtGet("compileSdkVersion", 33)
 
   compileOptions {
@@ -62,7 +63,6 @@ android {
     jvmTarget = JavaVersion.VERSION_11.majorVersion
   }
 
-  namespace "expo.modules.playstorechecker"
   defaultConfig {
     minSdkVersion safeExtGet("minSdkVersion", 21)
     targetSdkVersion safeExtGet("targetSdkVersion", 33)

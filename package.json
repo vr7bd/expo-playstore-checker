@@ -1,7 +1,7 @@
 {
   "name": "expo-playstore-checker",
-  "version": "0.1.0",
-  "description": "An expo module to check if play store is installed",
+  "version": "0.2.0",
+  "description": "An expo module to check if app store is installed",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
